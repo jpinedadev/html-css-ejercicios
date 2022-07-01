@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elementos de Interés en Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!--Primera seccion -->
+    <section class="container">
+      <div class="bg-light p-5 mb-4 rounder-3">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+          <p class="col-md-8 fs-4">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum dolorem dolores est, delectus dicta molestiae itaque placeat repudiandae natus, cumque sint, saepe ratione esse consectetur quo eveniet recusandae obcaecati iure.
+          </p>
+          <button 
+            type="button" 
+            class="btn btn-primary btn-lg" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal">
+            Example button
+          </button>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Titulo</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Architecto tempore ullam magni quo eius, cum mollitia quidem delectus expedita sed repudiandae optio ab, vitae aliquid dolores, quos quia velit. Iste.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Segunda seccion -->
+    <section class="container px-5 mb-4">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Julio">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput2" class="form-label">Telefono</label>
+        <input type="number" class="form-control" id="exampleFormControlInput2" placeholder="555-2864">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </section>
+
+    <!--Tercera seccion -->
+    <section class="container px-5 mb-4">
+      <div class="card" style="width: 18rem;">
+        <img src="./img/pfp.jpeg" class="card-img-top" alt="Julio Pineda pfp">
+        <div class="card-body">
+          <h5 class="card-title">Ing. Julio Pineda</h5>
+          <p class="card-text">Hola, soy Julio un Fullstack web developer Student y estoy en mi camino para ser un gran desarrollador!.</p>
+          
+        </div>
+        <div class=" card-footer">
+          <span class="card-text">jpinedadeveloper@gmail.com</span>
+        </div>
+      </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
